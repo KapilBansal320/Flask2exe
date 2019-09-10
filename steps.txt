@@ -28,3 +28,7 @@ a.datas += extra_datas("templates")
 # (before declaration of pyz)
 
 4. pyinstaller app.spec
+
+5. (Optional) To add custom icon to the built app, run the following command instead of the regular pyinstaller command
+
+pyinstaller --onefile --icon=icon.ico --clean app.py
